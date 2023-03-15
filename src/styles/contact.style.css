@@ -1,0 +1,174 @@
+.contact {
+    --dark-theme-color: #0f172d;
+    --light-theme-color: #f2f2f2;
+    --highlight-theme-color: #009cff;
+
+    color: var(--dark-theme-color);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* text-align: center;
+    justify-content: center; */
+}
+
+i {
+    font-size: 1.8em;
+    color: #000000;
+}
+
+.content-section {
+    margin: 1.8em 0;
+    grid-column: span 11;
+    color: #454545;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: min-content;
+    column-gap: 2em;
+}
+
+.content-section h3{
+    color: var(--dark-theme-color);
+    font-size: 1.5em;
+}
+
+.content-section h4{
+    color: var(--dark-theme-color);
+    font-size: 1em;
+}
+
+.content-section .section-header {
+    grid-column: span 8;
+    text-align: center;
+}
+
+.content-section .section-container {
+    padding: 2em 0;
+    grid-column: span 8;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.content-section .section-container > div {
+    flex: 1;
+}
+
+.content-section .section-container >  div:first-child {
+    text-align: center;
+    /* border: 1px solid #009cff; */
+    /* font-size: 0.8em; */
+}
+
+.content-section .section-container > div:last-child {
+    text-align: start;
+}
+
+.section-container .contact-desc {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--dark-theme-color);
+    text-align: center;
+}
+
+.section-container .contact-list {
+    /* border: 1px solid #04AA6D; */
+    padding: 0.5em 2em;
+    width: max-content;
+    margin: auto;
+}
+
+.section-container .contact-card {
+    margin: 1em;
+    font-size: 0.8em;
+    padding: 0 5em;
+    /* box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.section-container .contact-card p:nth-child(2) {
+    color: var(--dark-theme-color);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.section-container .contact-card a{
+    color: #454545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .content-section section:nth-child(2) > div:hover {
+    box-shadow: 5px 5px var(--dark-theme-color);
+    transition: 0.2s ease-in-out;
+} */
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--dark-theme-color);
+    border: 1px solid var(--dark-theme-color);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--white-theme-color);
+    color: var(--dark-theme-color);
+    border: 1px solid var(--dark-theme-color);
+  }
+  
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+/* @media screen and (max-width: 840px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact .left-section {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .content-section {
+        padding: 10px 0;
+    }
+} */

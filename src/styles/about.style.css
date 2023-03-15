@@ -1,0 +1,10 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-content {
+    grid-column: span 10;
+}
