@@ -32,7 +32,7 @@ function App() {
           <nav id={toggleBurger ? "open" : "close"}>
           <img src={Profile_Logo} alt="Rommel Cazeñas" />
             <section className="nav-burger">
-                <button onClick={triggerBurger}><i className={toggleBurger ? "burger uil uil-bars" : "burger uil uil-multiply"}></i></button>
+                <button onClick={triggerBurger}><i className={toggleBurger ? "burger uil uil-multiply" : "burger uil uil-bars"}></i></button>
             </section>
             <ul onClick={triggerBurger}>
                 <li><a href="#home">Home</a></li>
