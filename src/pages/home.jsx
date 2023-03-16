@@ -25,7 +25,6 @@ export const Home = () => {
                 </section>
                 <section>
                         <button>Check me! <i className="uil uil-location-arrow"></i></button>
-            
                 </section>
                 
 

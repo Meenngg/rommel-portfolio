@@ -113,6 +113,36 @@
     
 }
 
+#open {
+    height: 100vh;
+    background-color: #0f172d;
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 0 4%;
+    padding-top: 1em;
+    align-items: center;
+  }
+  
+  #open .nav-burger {
+    align-self: flex-end;
+  }
+
+#open img {
+    display: none;
+  }
+  
+#open ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     .home-context h1 {
         font-size: 4em;

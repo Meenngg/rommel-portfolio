@@ -19,22 +19,28 @@ function App() {
   // useEffect = () => {
   //   menuFunc();
   // }, [];
+  const [toggleBurger, setToggleBurger] = useState(false);
+
+  const triggerBurger = () => {
+    setToggleBurger(!toggleBurger);
+  }
 
   return (
     <>
       <div className="App">
         <section id="home">
-          <nav>
+          <nav id={toggleBurger ? "open" : "close"}>
           <img src={Profile_Logo} alt="Rommel Cazeñas" />
-            <ul>
+            <section className="nav-burger">
+                <button onClick={triggerBurger}><i className={toggleBurger ? "burger uil uil-bars" : "burger uil uil-multiply"}></i></button>
+            </section>
+            <ul onClick={triggerBurger}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <section className="nav-burger">
-                <button><i className="burger uil uil-bars"></i></button>
-            </section>
+            
           </nav>
           <Home />
         </section>
