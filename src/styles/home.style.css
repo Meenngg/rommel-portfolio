@@ -196,11 +196,13 @@
     .home-image section {
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 1.2em;
     }
 
     .home-image section i{
         font-size: 30px;
+        color: #d6d6d6;
     }
 
     .home-image section i:hover {

@@ -23,13 +23,13 @@ export const Contact = () => {
                                 <i className="uil uil-envelope"></i>
                                 <p>Gmail</p>
                                 <p>rommel.cazenas@gmail.com</p>
-                                <a>Write me <i className="uil uil-arrow-right"></i></a>
+                                <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjDhQQtVckGNnhCcPXTdBZhcrpVhlgplNVGlrSlPqNMWQglkLkpvdFWlppFKxjVwCXwXNr">Write me <i className="uil uil-arrow-right"></i></a>
                             </div>
                             <div className="contact-card">
-                                <i className="uil uil-facebook-messenger-alt"></i>
+                                <i className="uil uil-facebook-messenger"></i>
                                 <p>Messenger</p>
                                 <p>Rommel Cazeñas</p>
-                                <a>Write me <i className="uil uil-arrow-right"></i></a>
+                                <a href="https://m.me/rommel.diana.cazenas">Write me <i className="uil uil-arrow-right"></i></a>
                             </div>
                             <div className="contact-card">
                                 <i className="uil uil-phone"></i>

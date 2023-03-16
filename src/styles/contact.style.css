@@ -99,9 +99,15 @@ i {
     font-size: 1.1em;
 }
 
+.section-container .contact-card a:hover{
+    cursor: pointer;
+    color: var(--highlight-theme-color);
+}
 
-
-
+.section-container .contact-card a i:hover{
+    cursor: pointer;
+    color: var(--highlight-theme-color);
+}
 
 
 
@@ -172,3 +178,37 @@ input[type=text], select, textarea {
         padding: 10px 0;
     }
 } */
+
+@media screen and (max-width: 880px) {
+    .content-section .section-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    .section-container .contact-list {
+        padding: 0;
+    }
+    
+    .section-container .contact-card {
+        margin: 1em auto;
+        padding: 0 auto;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .left-section {
+        display: none;
+    }
+
+    .content-section {
+        margin: 1.8em 0;
+        grid-column: span 12;
+        color: #454545;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: min-content;
+        column-gap: 2em;
+    }
+    
+}

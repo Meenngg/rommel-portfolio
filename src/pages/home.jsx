@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="home">
             <div className="home-links">
                 <i className="v-line-white"></i>
-                <i class="uil uil-home"></i>
+                <i className="uil uil-home"></i>
                 <i className="v-line-white"></i>      
             </div>
             <div className="home-context">
@@ -18,9 +18,9 @@ export const Home = () => {
                 <section>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, voluptates beatae explicabo quia atque quas rerum nulla optio consectetur ipsam?</p>
                     <div>
-                        <i className="uil uil-github"></i>
-                        <i className="uil uil-linkedin"></i>
-                        <i className="uil uil-facebook"></i>
+                        <a href="https://github.com/Meenngg"><i className="uil uil-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rommel-caze%C3%B1as/"><i className="uil uil-linkedin"></i></a>
+                        <a href="https://www.facebook.com/rommel.diana.cazenas"><i className="uil uil-facebook"></i></a>
                     </div>               
                 </section>
                 <section>

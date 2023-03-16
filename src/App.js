@@ -31,14 +31,9 @@ function App() {
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <i className="burger uil uil-bars"></i>
             </ul>
             <section className="nav-burger">
-                <div><i className='uil uil-close'>X</i></div>
-                <div>Home</div>
-                <div>About</div>
-                <div>Projects</div>
-                <div>Contact</div>
+                <button><i className="burger uil uil-bars"></i></button>
             </section>
           </nav>
           <Home />
