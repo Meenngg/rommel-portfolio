@@ -126,7 +126,7 @@ i {
 } */
 
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -154,6 +154,7 @@ input[type=text], select, textarea {
   }
   
   .form-container {
+    margin: 0 2em;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;

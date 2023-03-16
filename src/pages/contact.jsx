@@ -46,14 +46,14 @@ export const Contact = () => {
                             <div className="form-container">
                                 <form>
 
-                                    <label>Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Insert your name" />
-
                                     <label>Email</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Insert your email" />
+                                    <input type="email" id="user-email" name="email" placeholder="Insert your email" />
 
                                     <label>Subject</label>
-                                    <textarea id="subject" name="subject" placeholder="Write something"/>
+                                    <input type="text" id="user-subject" name="subject" placeholder="Insert your subject" />
+
+                                    <label>Message</label>
+                                    <textarea id="subject" name="subject" placeholder="Write your message"/>
 
                                     <input type="submit" value="Submit" />
                                 </form>
