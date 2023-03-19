@@ -9,8 +9,11 @@
   --reserve-color: #242424;
   --text-color: #f2f2f2; */
 
+  /* #0d0b0d */
+  /* #2f2e30 */
+
   --dark-theme-v2-color: #0d1721;
-  --dark-theme-color: #0f172d;
+  --dark-theme-color: #0f172d/*0f172d*/;
   --light-theme-color: #f2f2f2;
   --highlight-theme-color: #009cff;
 }
@@ -157,7 +160,7 @@ nav .nav-burger {
 
 #project {
   background-color: var(--dark-theme-color);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 #contact {

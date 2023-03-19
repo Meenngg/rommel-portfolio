@@ -14,7 +14,7 @@ export const Home = () => {
             <div className="home-context">
             {/* <hr style={{background: 'lime', color: 'lime', height: '1px'}} /> */}
                 <h1>Rommel Cazeñas</h1>
-                <p className="name-sub">Aspiring Software Developer!</p>
+                <p className="name-sub">Aspiring Web Developer!</p>
                 <section>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, voluptates beatae explicabo quia atque quas rerum nulla optio consectetur ipsam?</p>
                     <div>

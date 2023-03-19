@@ -1,0 +1,88 @@
+.project {
+    --dark-theme-color: #0f172d;
+    --light-theme-color: #f2f2f2;
+    --highlight-theme-color: #009cff;
+    --child-dark-theme-color: #112240;
+
+    color: var(--light-theme-color);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* text-align: center;
+    justify-content: center; */
+}
+
+/* LOGO ICON OF FOLDER IN THE LEFT-SECTION */
+.project .left-section i:nth-child(2) {
+    color: var(--light-theme-color);
+}
+
+.project .project-section { 
+    margin: 1em 0;
+    grid-column: span 11;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content;
+}
+
+.project-header {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.8em;
+    
+
+}
+
+.project-list > .project-card {
+    background-color: var(--child-dark-theme-color);
+    height: 300px;
+    /* margin: 0 5em; */
+    padding: 0.5em;
+}
+.project-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8em;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px -15px rgba(2, 12 , 27, 0.7);
+}
+
+.project-card .card-preview {
+    background-color: #009cff;
+    background-image: url('../assets/sample-project-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.card-description {
+    display: grid;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* link for live demo and github */
+.card-description button {
+    margin-right: 10px;
+    padding: 0 0.5px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    background-color: var(--child-dark-theme-color);
+    border: 0.5px solid rgba(235, 235, 235, 0.05);
+}
+
+.card-description i {
+    font-size: 1.5em;
+    color: #cacaca;
+}
+
+.card-description section:last-child {
+    align-self: end;
+    padding-bottom: 10px;
+}
