@@ -101,9 +101,12 @@
     color: #cacaca;
 }
 
+.card-description div:first-child {
+    overflow: hidden;
+}
+
 .card-description div:first-child section {
     margin: 1em 0;
-
 }
 
 .project-stack-used {
@@ -127,6 +130,20 @@
     margin-bottom: 10px;
 }
 
-.card-description div:last-child section button:hover > i{
+.card-description div:last-child section button:hover i{
     color: var(--highlight-theme-color);
+}
+
+
+/* @media screen and (max-width: 930px) {
+    .project-list .project-card {
+        grid-template-columns: 1fr;
+        
+    }
+} */
+
+@media screen and (max-width: 840px) {
+    .project .project-section {
+        grid-column: span 12;
+    }
 }
