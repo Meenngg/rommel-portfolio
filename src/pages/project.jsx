@@ -18,21 +18,27 @@ export const Project = () => {
                     <div className="project-card">
                         <section className="card-preview"></section>
                         <section className="card-description">
-                            <h3>My First Website</h3>
-                            <label>Lorem ipsum dolor sit amet consectetur adipisicing.</label>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi hic ipsam nulla deleniti necessitatibus atque!</p>
-                            <section>
-                                React1 React2 React3 React4
-                            </section>
-                            <section>
-                                <button id="btn-1"><i className="uil uil-arrow-up-right"></i></button>
-                                <button><i className="uil uil-github"></i></button>
-                            </section>
+                            <div>
+                                <h3>Rommel Portfolio</h3>
+                                <label>Personal Website, Portfolio</label>
+                                <section>
+                                    <p>A self-made website portfolio made in ReactJS and style-components CSS. Created with a simplicity design and uniform colour scheme layout.</p>
+                                    
+                                    <div className="project-stack-used">
+                                        <section><p>React</p></section>
+                                        <section><p>Styled Components</p></section>
+                                    </div>
+                                </section>
+                            </div>
+                            <div>
+                                <section>
+                                    <button id="btn-1"><a href=""></a><i className="uil uil-arrow-up-right"></i></button>
+                                    <button><i className="uil uil-github"></i></button>
+                                </section>
+                            </div>
                         </section>
                     </div>
                     <div className="project-card">2</div>
-                    <div className="project-card">3</div>
-                    <div className="project-card">4</div>
                     
                 </div>
             </div>
