@@ -32,8 +32,8 @@ export const Project = () => {
                             </div>
                             <div>
                                 <section>
-                                    <button id="btn-1"><a href=""></a><i className="uil uil-arrow-up-right"></i></button>
-                                    <button><i className="uil uil-github"></i></button>
+                                    <button id="btn-1"><a href="https://github.com/Meenngg/rommel-portfolio.git"><i className="uil uil-arrow-up-right"></i></a></button>
+                                    <button><a href="https://github.com/Meenngg/rommel-portfolio.git"><i className="uil uil-github"></i></a></button>
                                 </section>
                             </div>
                         </section>
