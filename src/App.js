@@ -63,11 +63,11 @@ function App() {
         {/* &#127793; Rommel Cazeñas :) &#127793; */}
           <div>
             <div>
-              <button><i className="uil uil-envelope-alt"></i></button>
-              <button><i className="uil uil-github-alt"></i></button>
-              <button><i className="uil uil-linkedin"></i></button>
-              <button><i className="uil uil-facebook-f"></i></button>
-              <button><i className="uil uil-facebook-messenger-alt"></i></button>
+              <button><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjDhQQtVckGNnhCcPXTdBZhcrpVhlgplNVGlrSlPqNMWQglkLkpvdFWlppFKxjVwCXwXNr"><i className="uil uil-envelope-alt"></i></a></button>
+              <button><a href="https://github.com/Meenngg"><i className="uil uil-github-alt"></i></a></button>
+              <button><a href="https://www.linkedin.com/in/rommel-caze%C3%B1as/"><i className="uil uil-linkedin"></i></a></button>
+              <button><a href="https://www.facebook.com/rommel.diana.cazenas"><i className="uil uil-facebook-f"></i></a></button>
+              <button><a href="https://m.me/rommel.diana.cazenas"><i className="uil uil-facebook-messenger-alt"></i></a></button>
             </div>
             <div>
               <p>&copy; 2023, Rommel Cazeñas Portfolio</p>
