@@ -75,10 +75,17 @@
 
 .project-card > .card-preview {
     background-color: #009cff;
-    background-image: url('../assets/project-2-preview.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
+}
+
+#one {
+    background-image: url('../assets/project-2-preview.PNG');
+}
+
+#two {
+    background-image: url('../assets/project-3-preview.png');
 }
 
 .card-description {

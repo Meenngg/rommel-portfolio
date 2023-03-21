@@ -16,7 +16,7 @@ export const Project = () => {
                 </div>
                 <div className="project-list">
                     <div className="project-card">
-                        <section className="card-preview">
+                        <section className="card-preview" id="one">
                             {/* asd */}
                         </section>
                         <section className="card-description">
@@ -34,13 +34,38 @@ export const Project = () => {
                             </div>
                             <div>
                                 <section>
-                                    <button id="btn-1"><a href="https://github.com/Meenngg/rommel-portfolio.git"><i className="uil uil-arrow-up-right"></i></a></button>
-                                    <button><a href="https://github.com/Meenngg/rommel-portfolio.git"><i className="uil uil-github"></i></a></button>
+                                    <button id="btn-1"><a href="https://rommel-cazenas.vercel.app"><i className="uil uil-arrow-up-right"></i></a></button>
+                                    <button><a href="https://github.com/Meenngg/rommel-portfolio"><i className="uil uil-github"></i></a></button>
                                 </section>
                             </div>
                         </section>
                     </div>
-                    <div className="project-card">2</div>
+                    <div className="project-card">
+                    <section className="card-preview" id="two">
+                            {/* asd */}
+                        </section>
+                        <section className="card-description">
+                            <div>
+                                <h3>Cat Factsss</h3>
+                                <label>Facts Website, API generator </label>
+                                <section>
+                                    <p>Show trivia and facts about cats. This application generates api's using Axios and data fetching.</p>
+                                    
+                                    <div className="project-stack-used">
+                                        <section><p>React</p></section>
+                                        <section><p>CSS</p></section>
+                                        <section><p>API</p></section>
+                                    </div>
+                                </section>
+                            </div>
+                            <div>
+                                <section>
+                                    <button id="btn-1"><a href="https://cat-fact-rommel.vercel.app"><i className="uil uil-arrow-up-right"></i></a></button>
+                                    <button><a href="https://github.com/Meenngg/Cat-Fact-v2"><i className="uil uil-github"></i></a></button>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
                     
                 </div>
             </div>
