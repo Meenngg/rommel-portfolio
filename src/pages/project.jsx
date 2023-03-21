@@ -16,7 +16,9 @@ export const Project = () => {
                 </div>
                 <div className="project-list">
                     <div className="project-card">
-                        <section className="card-preview"></section>
+                        <section className="card-preview">
+                            {/* asd */}
+                        </section>
                         <section className="card-description">
                             <div>
                                 <h3>Rommel Portfolio</h3>
