@@ -1,7 +1,16 @@
 import "../App.css";
 import "../styles/about.style.css";
+import ProfilePic from "../assets/Grad_Profile.png";
+import { useState } from "react";
 
 export const About = () => {
+    const aboutArray = [1, 2, 3];
+    const [toggle, setToggle] = useState(1);
+
+    const changeTab = (data) => {
+        setToggle(data);
+    }
+
     return ( 
         <div className="about">
             <div className="left-section">
@@ -10,14 +19,85 @@ export const About = () => {
                 <i className="v-line-dark"></i>
             </div>
             <div className="about-content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veritatis rerum incidunt, in doloremque minima quo reprehenderit repellendus veniam. Porro?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ducimus quo quod doloribus ipsa, fugiat neque laudantium? Rerum porro soluta saepe veniam deserunt, dolore laborum eos iusto molestias enim quos odio ex! Facere maxime soluta velit mollitia fuga praesentium sapiente atque laudantium quaerat ab? Optio explicabo esse eum! Veritatis magni corporis, dolore saepe, sed provident est odit suscipit alias nesciunt accusamus in vel quia dicta explicabo quo cupiditate! Facilis magni, illo illum, quibusdam sit laborum velit voluptate consequuntusr itaque magnam laboriosam! Ad libero deleniti dignissimos ullam eveniet quos soluta earum? Reprehenderit doloribus illum minus tenetur libero iusto nobis et quam!</p>
+                <section className="section-header">
+                    <h3>About me</h3>
+                    <p>Things that describe me</p>
+                </section>
+                <section className="content-section">
+                    <div className="profile-tab">
+                        <img src={ProfilePic} alt="Rommel Cazeñas" />
+                    </div>
+                    <div className="info-tab">
+                        <div className="header-button">
+                            <section>
+                                <button onClick={() => changeTab(1)}>
+                                    <i className="uil uil-user-circle"></i>
+                                    <p>Me</p>
+                                </button>
+                            </section>
+                            <section>
+                                <button onClick={() => changeTab(2)}>
+                                    <i className="uil uil-brackets-curly"></i>
+                                    <p>Skills</p>
+                                </button>
+                            </section>
+                            <section>
+                                <button onClick={() => changeTab(3)}>
+                                    <i className="uil uil-briefcase"></i>
+                                    <p>Educ</p>
+                                </button>
+                            </section>
+                        </div>
+                        <div className="desc-tab">
+                            <section id={toggle == 1 ? "show" : "hide"}>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sequi numquam, odit porro, saepe ab voluptates, aperiam vitae dolore excepturi temporibus quaerat dolorem quas nesciunt minima maiores? Vel, sapiente ad!</p>
+                            </section>
+                            <section id={toggle == 2 ? "show" : "hide"}>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>JavaScript</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>ReactJS</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>HTML</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>CSS</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>Firebase</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>Styled</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>CSS</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>CSS</p>
+                                </div>
+                                <div>
+                                    <i class="uil uil-check-circle"></i>&nbsp;
+                                    <p>CSS</p>
+                                </div>
+                                
+                            </section>
+                            <section id={toggle == 3 ? "show" : "hide"}>
+                                3
+                            </section>
+                        </div>
+                    </div>
+                </section>
             </div>
-            {/* <div className="right-section">
-                <div className="v-line-dark"></div>
-                    <i class="uil uil-home"></i>
-                <div className="v-line-dark"></div>
-            </div> */}
         </div>
      );
 }

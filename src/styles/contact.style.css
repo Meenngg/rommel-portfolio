@@ -16,7 +16,7 @@ i {
 }
 
 .content-section {
-    margin: 1.8em 0;
+    /* margin: 1em 0; */
     grid-column: span 11;
     color: #454545;
     display: grid;
