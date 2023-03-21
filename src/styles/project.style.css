@@ -34,6 +34,7 @@
 
 .project .project-section { 
     margin: 1em 0;
+    margin-bottom: 5em;
     grid-column: span 11;
     display: grid;
     grid-template-columns: 1fr;
@@ -42,7 +43,7 @@
 
 .project-header {
     text-align: center;
-    /* margin: 1em 0; */
+    margin-bottom: 1em;
 }
 
 .project-list {

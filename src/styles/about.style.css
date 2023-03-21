@@ -42,7 +42,7 @@
 .content-section {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     gap: 1em;
 }
 
@@ -115,11 +115,48 @@
     font-size: 1em;
 }
 
-
-
-
 #hide {
     display: none;
 }
 
+
+@media screen and (max-width: 840px) {
+    .about-content {
+        grid-column: span 12;
+    }
+
+    .about-content .content-section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .content-section img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .content-section .profile-tab {
+        grid-column: span 4;
+    }
+
+    .info-tab .desc-tab section:nth-child(1) {
+        text-align: center;
+    }
+
+    .info-tab .desc-tab section:nth-child(2) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+    }
+    
+    .info-tab .desc-tab section:nth-child(2) div{
+        display: flex;
+        align-items: center;
+       justify-content: center;
+        
+    }
+    
+    .info-tab .desc-tab section:nth-child(2) i {
+        font-size: 1em;
+    }
+
+}
 

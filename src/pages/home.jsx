@@ -16,7 +16,7 @@ export const Home = () => {
                 <h1>Rommel Cazeñas</h1>
                 <p className="name-sub">Aspiring Web Developer!</p>
                 <section>
-                    <p>You can also call me Meng <span style={{fontSize:"0.8em", color: "#009cff"}}>(as my nickname)</span>. I am passionate in creating web application. </p>
+                    <p>You can also call me Meng <span style={{fontSize:"0.8em", color: "#009cff"}}>(as my nickname)</span>. I am passionate in creating web application and eager to learn new things about web developement. </p>
                     <div>
                         <a href="https://github.com/Meenngg"><i className="uil uil-github"></i></a>
                         <a href="https://www.linkedin.com/in/rommel-caze%C3%B1as/"><i className="uil uil-linkedin"></i></a>
