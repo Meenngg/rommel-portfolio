@@ -24,7 +24,9 @@ export const Home = () => {
                     </div>               
                 </section>
                 <section>
-                        <button>Check me! <i className="uil uil-location-arrow"></i></button>
+                <a href="https://drive.google.com/file/d/1FjgXq5pNMTDIgdS-vmTvrbLZRAHWSdC4/view?usp=share_link"> 
+                        <button> Check me! <i className="uil uil-location-arrow"></i></button>
+                        </a>
                 </section>
                 
 
